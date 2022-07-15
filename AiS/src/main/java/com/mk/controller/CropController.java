@@ -13,7 +13,7 @@ import com.mk.service.CropService;
 
 @RestController
 @RequestMapping("/crop")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class CropController {
 	
 	@Autowired

@@ -18,7 +18,6 @@ import com.mk.service.PlotService;
 
 @RestController
 @RequestMapping("/plot")
-//@CrossOrigin(origins = "http://localhost:4200")
 @CrossOrigin(origins = "*")
 public class PlotController {
 	
