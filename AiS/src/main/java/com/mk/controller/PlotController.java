@@ -27,7 +27,6 @@ public class PlotController {
 	@GetMapping()  
 	private List<Plot> getAllPlots()   
 	{
-		System.out.println("Hi this is Plot controller...");
 		return plotService.getAllPlots();  
 	}
 	
