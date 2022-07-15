@@ -1,0 +1,8 @@
+package com.mk.util;
+
+public interface Constants {
+	
+	int IRRIGATION_TRANSACTION_SCHEDULER_FIXED_RATE = 2*60*1000;
+	int FAILED_IRRIGATION_TRANSACTION_SCHEDULER_FIXED_RATE = 1*60*1000;
+
+}
