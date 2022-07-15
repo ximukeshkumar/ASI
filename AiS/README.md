@@ -19,7 +19,7 @@ Maven 4
 
 # project structure : 
  
- 	Front-end layer represented by the Rest controllers under package com.bankmisr.controller and any utility supporting rest controller
+ 	Front-end layer represented by the Rest controllers under package com.mk.controller and any utility supporting rest controller
  	
  	Business layer (service layer) and schedulers for the business logic of the application under package com.mk.service
  	
@@ -105,5 +105,5 @@ Maven 4
 		--> irrigation transaction will be picked FailedIrrigationTransactionScheduler
 		--> irrigation transaction will success and all required updates will take place 
 		--> plot will be picked normally by IrrigationTransactionScheduler after that
-		--> a new successful irrigation transaction every 10 minutes with water amount 18000 Liter
+		--> a new successful irrigation transaction every 4 minutes with water amount 18000 Liter
 	
